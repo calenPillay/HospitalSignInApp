@@ -12,4 +12,12 @@ package domain;
 public class Ward {
     public String wardName;
     public int wardCapacity;
+
+    public String getWardName() {
+        return wardName;
+    }
+
+    public int getWardCapacity() {
+        return wardCapacity;
+    }
 }
