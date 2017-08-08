@@ -10,5 +10,6 @@ package domain;
  * @author 210218673
  */
 public class Ward {
-    
+    public String wardName;
+    public int wardCapacity;
 }

@@ -10,5 +10,14 @@ package domain;
  * @author 210218673
  */
 public class MedicalAid {
-    
+    public String medicalAid;
+    public String medicalAidNumber;
+
+    public String getMedicalAid() {
+        return medicalAid;
+    }
+
+    public String getMedicalAidNumber() {
+        return medicalAidNumber;
+    }
 }
